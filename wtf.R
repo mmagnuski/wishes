@@ -22,7 +22,7 @@ wishfun <- function(m, f) {
 }
 
 wsh <- paste(sapply( strsplit(sortedtxt, NULL), 
-		function(x) x[invsrt] ), collapse = '')
+		function(x) x[idx] ), collapse = '')
 
 invisible(lapply(
 	1:length(malzowinki), 
