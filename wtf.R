@@ -21,7 +21,7 @@ wishfun <- function(m, f) {
 	writeLines(txt)
 }
 
-wsh <- paste(sapply( strsplit(sortedtxt, NULL), 
+wsh <- paste(sapply( strsplit(wsh, NULL), 
 		function(x) x[idx] ), collapse = '')
 
 invisible(lapply(
